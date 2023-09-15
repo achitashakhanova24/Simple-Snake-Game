@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Snake Game</title>
+  <style>
+    #gameBoard {
+      border: 1px solid black;
+      width: 400px;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+    }
+    .cell {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      position: absolute;
+    }
+    .snake {
+      background-color: green;
+    }
+    .food {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameBoard"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
